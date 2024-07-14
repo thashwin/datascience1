@@ -1,2 +1,2 @@
 # datascience1
-Exploring data science projects!
+Exploring datascience projects!
