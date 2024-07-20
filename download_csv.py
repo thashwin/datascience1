@@ -7,8 +7,8 @@ import zipfile
 os.environ['KAGGLE_CONFIG_DIR'] = os.path.expanduser('~/.kaggle')
 
 # Replace with your Kaggle dataset details
-dataset = 'shibumohapatra/house-price'
-file_name = '1553768847-housing.csv'
+dataset = 'shibumohapatra/house-price' ## author/projet
+file_name = '1553768847-housing.csv' ##file-name
 
 # Download the dataset file
 kaggle.api.dataset_download_file(dataset, file_name, path='./')
